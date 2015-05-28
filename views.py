@@ -12,4 +12,5 @@ def research(request):
 def publication(request):
           return render(request, 'publication.html')
 
-
+def others(request):
+          return render(request, 'others.html')
